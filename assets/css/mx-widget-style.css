@@ -1,0 +1,49 @@
+.block {
+    clear: both;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.mx-block {
+    width: 30%;
+    float: left;
+    margin: 0 5px 10px 5px;
+    background: #fff;
+    text-align: center;
+    -moz-box-shadow: 0px 0px 7px 0px #BBB;
+    -webkit-box-shadow: 0px 0px 7px 0px #BBB;
+    box-shadow: 0px 0px 7px 0px #BBB;
+}
+
+.mx-block .title {
+    font-size: 1em;
+    color: #777;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 0px 0px 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.mx-block .data {
+    font-size: 1.2em;
+    margin: 0;
+    padding: 1px 0 3px 0;
+}
+
+.mx-error {
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.loader img {
+    margin: 0 auto 0 auto;
+}
